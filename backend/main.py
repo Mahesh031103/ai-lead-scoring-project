@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from schemas import LeadInput, ScoreOutput
 from ml_utils import compute_initial_score, apply_reranker
+from mangum import Mangum # type: ignore
 
 app = FastAPI(title="AI Lead Scoring Engine", version="1.0")
 
@@ -30,3 +31,5 @@ def score_lead(lead: LeadInput):
     return ScoreOutput(initial_score=initial_score, reranked_score=reranked_score)
 
 print("FastAPI server ready.")
+
+handler = Mangum(app)
