@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ai-lead-scoring-project/static/css/main.e6c13ad2.css",
+    "main.js": "/ai-lead-scoring-project/static/js/main.50a3ed33.js",
+    "static/js/453.670e15c7.chunk.js": "/ai-lead-scoring-project/static/js/453.670e15c7.chunk.js",
+    "index.html": "/ai-lead-scoring-project/index.html",
+    "main.e6c13ad2.css.map": "/ai-lead-scoring-project/static/css/main.e6c13ad2.css.map",
+    "main.50a3ed33.js.map": "/ai-lead-scoring-project/static/js/main.50a3ed33.js.map",
+    "453.670e15c7.chunk.js.map": "/ai-lead-scoring-project/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.50a3ed33.js"
+  ]
+}
